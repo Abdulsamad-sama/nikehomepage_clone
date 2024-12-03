@@ -1,0 +1,64 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    height:auto;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
+.topmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.brandlist{
+    display: flex;
+}
+
+.menulist{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.brandicon > img{
+    width: 36px;
+}
+
+.main-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.shop-category{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.blackfriday, .blackfriday img{
+    width: 100%;
+}
+
+.blackfriday > img{
+    display:;
+}
+
+.rai-picks, .rai-picks> img{
+    width: 100%;
+}
+
+.
+
