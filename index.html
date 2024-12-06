@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike. Just Do It. Nike.com</title>
     <link href="/css/style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="topmenu">
@@ -33,56 +34,82 @@
         </ul>
         <div class="shoppingtool">
             <input type="search" name="search" id="search" placeholder="Search">
-            <icon>heart</icon>
-            <icon>cart</icon>
+            <i class="bx bx-heart"></i>
+            <i class="bx bx-shopping-bag"></i>
         </div>
     </div>
 
     <div class="content">
+
         <!-- blackfriday -->
         <div class="blackfriday">
             <img src="img/ban1.jpg" alt="Black Friday" title="Black Friday">
         </div>
+
     <!-- rai-picks -->
         <div class="rai">
             <img src="/img/ban2.jpg" alt="Rai Benjamin's Picks">
+        
+            <container class="rai-picks span">
+                <h3>Give Sport</h3>
+                <h1>RAI BENJAMIN'S PICK</h1>
+                <p>Gift the style that fuel the champion sprinter &amp; hurdler's confidence beyound the finish line</p>
+                <div class="button">
+                    <button class="b1">Shop Rai <span class="wrap"> Pick's</span></button>
+                    <button lass="b1">Shop Gift</button>
+                </div>
+            </container>
         </div>
-        <container class="rai-picks span">
-            <h3>Give Sport</h3>
-            <h1>RAI BENJAMIN'S PICK</h1>
-            <p>Gift the style that fuel the champion sprinter &amp; hurdler's confidence beyound the finish line</p>
-            <div class="button">
-                <button class="rounded">Shop Rai <span class="wrap"> Pick's</span></button>
-                <button>Shop Gift</button>
-            </div>
-        </container>
+
         <!-- collections -->
         <div class="collections">
-            <div class="collection">
-                <a href=""><img src="../img/niketravis.jpeg" alt=""></a>
-                <p class="collection-parag">Win for the city</p>
-                <p class="collection-head">NBA City Edition</p>
-                <button collection>Shop</button>
-            </div>
-            <div class="collection">
-                <a href=""><img src="../img/threepeople.jpeg" alt=""></a>
-                <p class="collection-parag">For a Subtle Flex</p>
-                <p class="collection-head">P-6000 &amp; More</p>
-                <button collection>Shop</button>
-            </div>
-            <div class="collection">
-                <a href=""><img src="../img/nikemodel.jpeg" alt=""></a>
-                <p class="collection-parag">Find Your Soft</p>
-                <p class="collection-head">Women's Zenvy Collection</p>
-                <button collection>Shop</button>
-            </div>
-            <div class="collection">
-                <a href=""><img src="../img/nikecat.jpeg" alt=""></a>
-                <p class="collection-parag">Nothing Beats the city</p>
-                <p class="collection-head">Men City</p>
-                <button collection>Shop</button>
+            <div>
+                <figure class="collection">
+                    <div class="image-card">
+                        <img src="../img/niketravis.jpeg" alt="">
+                    </div>
+                    <figcaption>
+                        <p class="collection-parag">Win for the city</p>
+                        <p class="collection-head">NBA City Edition</p>
+                        <button collection>Shop</button>
+                    </figcaption>
+                </figure>
+                <figure class="collection">
+                    <div class="image-card">
+                        <img src="../img/threepeople.jpeg" alt="">
+                    </div>
+                    <figcaption>
+                        <p class="collection-parag">For a Subtle Flex</p>
+                        <p class="collection-head">P-6000 &amp; More</p>
+                        <button collection>Shop</button>
+                    </figcaption>
+                </figure>
+            </figure>
+            <figure>
+                <figure class="collection">
+                    <div class="image-card">
+                        <img src="../img/nikemodel.jpeg" alt="">
+                    </div>
+                    <figcaption>
+                        <p class="collection-parag">Find Your Soft</p>
+                        <p class="collection-head">Women's Zenvy Collection</p>
+                        <button collection>Shop</button>
+                    </figcaption>
+                </figure>
+
+                <figure class="collection">
+                    <div class="image-card">
+                        <img src="../img/nikecat.jpeg" alt="">
+                    </div>
+                    <figcaption>
+                        <p class="collection-parag">Nothing Beats the city</p>
+                        <p class="collection-head">Men City</p>
+                        <button collection>Shop</button>
+                    </figcaption>
+                </figure>
             </div>
         </div>
+        
         <div class="span">
             <h2 class=" text-red">NEW ARRIVALS</h2>
             <p>Featuring the Nike Tech Woven Suit</p>
@@ -118,7 +145,6 @@
         </div>
         <div class="copyright"></div>
     </footer>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
